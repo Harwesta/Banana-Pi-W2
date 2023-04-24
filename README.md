@@ -1,7 +1,7 @@
 # Banana-Pi-W2
 LTE router based on Banana Pi W2 board
 
-Custom kernel Based on: https://github.com/BPI-SINOVOIP/BPI-W2-bsp
+Custom kernel based on: https://github.com/BPI-SINOVOIP/BPI-W2-bsp
 
 $uname -a
 Linux bpiw2 4.9.119-BPI-W2-Kernel #2 SMP PREEMPT Sat Apr 22 19:49:04 +05 2023 aarch64 GNU/Linux
@@ -16,6 +16,7 @@ Linux bpiw2 4.9.119-BPI-W2-Kernel #2 SMP PREEMPT Sat Apr 22 19:49:04 +05 2023 aa
 7. Setup systemd-resolved as DNS resolver.
 
 **Network**
+Working interface: eth0 (with barcode sticker), 10/100/1000 FD Auto
 IP address: 192.168.1.1/24
 DNS: 8.8.8.8, 8.8.4.4
 Login: pi
