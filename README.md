@@ -2,6 +2,7 @@
 LTE router based on Banana Pi W2 board
 
 Custom kernel based on: https://github.com/BPI-SINOVOIP/BPI-W2-bsp
+Debial Bullseye headless
 
 $uname -a
 
