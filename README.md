@@ -15,9 +15,11 @@ Linux bpiw2 4.9.119-BPI-W2-Kernel #2 SMP PREEMPT Sat Apr 22 19:49:04 +05 2023 aa
 5. Add support for PCIE and USB WiFi cards (Atheros, Intel, Realtek).
 6. Setup isc-dhcp-server as DHCP server. 
 7. Setup systemd-resolved as DNS resolver.
+8. Firewall with iptables & nt_tables.
+8. TTL fix =64 for wwan0 interface (with iptables).
 
 **Network**
-Working interface: eth0 (with barcode sticker), 10/100/1000 FD Auto
+LAN interface: eth0 (with barcode sticker), 10/100/1000 FD Auto
 IP address: 192.168.1.1/24
 DNS: 8.8.8.8, 8.8.4.4
 Login: pi
