@@ -4,6 +4,7 @@ LTE router based on Banana Pi W2 board
 Custom kernel based on: https://github.com/BPI-SINOVOIP/BPI-W2-bsp
 
 $uname -a
+
 Linux bpiw2 4.9.119-BPI-W2-Kernel #2 SMP PREEMPT Sat Apr 22 19:49:04 +05 2023 aarch64 GNU/Linux
 
 **Features list**
@@ -48,5 +49,7 @@ $sudo rm /etc/NetworkManager/system-connections/beeline.nmconnection
 
 
 **Hardware mod**
+
 Modem's on bpiw2 board don't recognise SIM card. For fix this bug you need a remove R243. By defaul this resistor pull up USIM_DET signal to USIM_VDD (1.8 or 3.3 volt), but USIM_VDD generated at modem after 1-2 seconds USIM_DET signal asserted to Hi.
+
 ![SIM_DET_BPIW2_](https://user-images.githubusercontent.com/65107625/233972016-12b9c20a-11d6-4f2d-bf11-1634d7c19295.jpg)
