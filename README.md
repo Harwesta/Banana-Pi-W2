@@ -26,11 +26,11 @@ DNS: 8.8.8.8, 8.8.4.4
 Login: pi
 Passord: bananapi
 
-**Installation on SD card**
+**Installation to SD card**
 1. Extract .img file and write to 8GB card with dd, balena, imagetool e.t.c.
 2. insert to bpiw2 board, switch to position "1" and power up.
 
-**Installation on onboard eMMC**
+**Installation to onboard eMMC**
 1. Prepare and boot up from SD card as described above. 
 2. Extract .img file to U-disk.
 3. Mount U-disk:
@@ -40,7 +40,7 @@ $sudo bpi-copy /media/usb/_filename_.img
 5. Wait for operation finish.
 
 **How to change APN**
-1. Logon to 192.168.1.1 with SSH.
+1. Logon to 192.168.1.1 with SSH
 2. Copy old nmconnection file:
 $sudo cp /etc/NetworkManager/system-connections/beeline.nmconnection /etc/NetworkManager/system-connections/_your's_provider.nmconnection
 3. Edit APN name in new nmconnection file:
